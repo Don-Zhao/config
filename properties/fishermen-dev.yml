@@ -1,0 +1,38 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: fishermen
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+com:
+  user:
+    zhao: what's this? OK     
+---
+
+server:
+  port: 10001
+spring:
+  application:
+    name: fishermen
+  profiles: provider1
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka, http://localhost:8762/eureka
+
+---
+
+server:
+  port: 10002
+spring:
+  application:
+    name: fishermen
+  profiles: provider2
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka, http://localhost:8762/eureka
+      

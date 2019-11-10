@@ -1,5 +1,6 @@
 test:
   user:
-    name: wangqian
+    name: '{cipher}AQAjygGIoUsbBDpc9+vi74NyrPCC0Co3jKtZ+wlqOyfLEfXtcLCdmnO6jRHM044kNIJ+Ftvy5NIT5wJ0cBADapANru1MgRJgrCQ0dH4Y/leQqCD3G0GHLiiSkGN3lIkDQMeopvLXi7adG0xdM/3CB1PUYhzeifmmeKjjKyu+fctHtQROMZhd95LnKKTkF56krpEEblkCfcTu/u/wTCgJC3RSnOvh9cSsada7MqCWjM8vN10080w3Qog7p4SyTqzNh2cne834zC/zGlS858Kc0/RiFb+31wMNg2Jim1KAJ4i4gCbKMAdHX0sTtTcCS770roL3vCfuZwt/PH7o5Uh8O/WhSmUDHKRVoiFxiRODoSXrWmPqKTNZczD+ECfbRKcRBt4='
+    password: fdafdafda
 server:
   port: 9999

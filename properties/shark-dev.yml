@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: shark
+  cloud:
+    stream:
+      bindings:
+        whale:
+          group: groupA
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka 
